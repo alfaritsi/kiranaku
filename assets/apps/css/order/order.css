@@ -1,0 +1,208 @@
+.datepicker {
+	border-radius: 0;
+}
+
+.table-form,
+.table-form th,
+.table-form td,
+.table-form tr {
+	border: solid 1px black !important;
+}
+
+.selecteds {
+	background-color: rgba(140, 185, 142, 0.9);
+	color: #ffffff;
+}
+
+.product-thumb:hover {
+	box-shadow: 0 0 5px 3px #ddd;
+}
+
+.product-thumb {
+	border: 1px solid rgba(221, 221, 221, 0.2);
+	margin-bottom: 20px;
+	overflow: auto
+}
+
+.product-thumb .image {
+	text-align: center
+}
+
+.product-thumb .image a {
+	display: block
+}
+
+.product-thumb .image a:hover {
+	opacity: .8
+}
+
+.image {
+	position: relative;
+	padding: 10px;
+}
+
+.image:before {
+	content: "";
+	display: block;
+	padding-top: 100%; /* initial ratio of 1:1*/
+	background-color: rgba(204, 204, 204, 0.25);
+}
+
+.image img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	padding: 10px;
+}
+
+.product-grid .product-thumb .image {
+	float: none
+}
+
+@media (min-width: 767px) {
+	.product-list .product-thumb .image {
+		float: left;
+		padding: 0 15px
+	}
+}
+
+.product-thumb h4 {
+	font-weight: 600;
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	margin: 0;
+	color: rgba(0, 0, 0, .7);
+	line-height: 20px;
+	max-height: 40px;
+	overflow: hidden;
+}
+
+.product-thumb .caption {
+	padding: 0 20px;
+	min-height: 180px
+}
+
+.product-list .product-thumb .caption {
+	margin-left: 230px
+}
+
+@media (max-width: 1200px) {
+	.product-grid .product-thumb .caption {
+		min-height: 210px;
+		padding: 0 10px
+	}
+}
+
+@media (max-width: 767px) {
+	.product-list .product-thumb .caption {
+		min-height: 0;
+		margin-left: 0;
+		padding: 0 10px
+	}
+
+	.product-grid .product-thumb .caption {
+		min-height: 0
+	}
+}
+
+.product-thumb .button-group {
+	background-color: #eee;
+	overflow: auto;
+	width: 100%;
+}
+
+.product-thumb .button-group button {
+	border-radius: 0;
+	background-color: #eee;
+	color: #888;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.thumbnails {
+	overflow: auto;
+	clear: both;
+	list-style: none;
+	padding: 0;
+	margin: 0
+}
+
+.thumbnails > li {
+	margin-left: 20px
+}
+
+.thumbnails {
+	margin-left: -20px
+}
+
+.thumbnails > img {
+	width: 100%
+}
+
+/* The controlsy */
+.carousel-control {
+	left: -12px;
+	height: 40px;
+	width: 40px;
+	background: none repeat scroll 0 0 #222222;
+	border: 4px solid #FFFFFF;
+	border-radius: 23px 23px 23px 23px;
+	margin-top: 90px;
+}
+
+/* The indicators */
+.carousel-indicators {
+	bottom: -10px;
+}
+
+/* The colour of the indicators */
+.carousel-indicators li {
+	background: #cecece;
+	border: 1px solid black;
+}
+
+.carousel-indicators .active {
+	background: #428bca;
+}
+
+.product-thumb .thumb-spec {
+	display: -webkit-box;
+	max-width: 100%;
+	height: 43px;
+	line-height: 1;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.thumb-prize {
+	display: -webkit-box;
+	max-width: 100%;
+	height: 20px;
+	line-height: 1;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+button[name='action_btn'],
+.box-header .btn {
+	margin: 5px 0px 5px 5px !important;
+}
+textarea{
+	resize: vertical;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice:first-of-type {
+	background-color: #da4a38 !important;
+	border-color: #dd4b39;
+}

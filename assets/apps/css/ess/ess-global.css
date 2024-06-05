@@ -1,0 +1,164 @@
+
+.modal-dialog {
+    /*width: 500px;*/
+}
+
+.disabled.day {
+    color: #ccc !important;
+}
+
+.weekend.day {
+    color: #ff3333 !important;
+}
+
+.active.selected.day, .selected.day, .range.day {
+    border-color: unset;
+    border-radius: 0 !important;
+    color: white !important;
+}
+
+.range.disabled.weekend {
+    background-color: #ff3333 !important;
+    color: white !important;
+}
+
+.range.disabled.cuti {
+    background-color: #39a0ff !important;
+    color: white !important;
+}
+
+.range.day:not(.disabled), .selected.day {
+    /*background-color: rgba(0, 141, 76, 0.8) !important;*/
+    background-color: #008d4c !important;
+}
+
+.active.selected.day {
+    background-color: #005f33 !important;
+}
+
+.cuti.day {
+    color: #39a0ff !important;
+    /*opacity: .4;*/
+    background-color: rgba(57, 160, 255, 0.33);
+}
+
+.day.new, .day.old {
+    visibility: hidden;
+}
+
+.form-group {
+    margin-bottom: 5px !important;
+}
+
+.modal-kelengkapan .form-group {
+    margin-bottom: 5px !important;
+}
+
+#datepicker-detail .datepicker-inline {
+    width: 100% !important;
+}
+
+#datepicker-detail .disabled:not(.active) {
+    /*color: #555555 !important;*/
+    padding: 2px !important;
+}
+
+#datepicker-detail .active {
+    border-color: unset;
+    border-radius: 0 !important;
+    color: white !important;
+    background-color: #005f33 !important;
+}
+
+#datepicker-detail .new.disabled.day {
+    line-height: 10px !important;
+    height: 0px !important;
+}
+
+.modal-body {
+    /*background-color: #eeeeee;*/
+}
+
+.modal .modal-title {
+    font-weight: bold;
+}
+
+.modal .box {
+    margin-bottom: 10px !important;
+    border-top-width: 2px;
+}
+
+.modal .box .box-title {
+    font-size: 16px !important;
+}
+
+#modal-cutiijin ul {
+    margin-bottom: 0;
+}
+
+#modal-cutiijin #collapse-approval ul li .fa-li {
+    width: 1em;
+}
+#modal-cutiijin #collapse-konfirmasi ul li .fa-li {
+    width: 1em;
+}
+
+#modal-detail .form-group {
+    margin-bottom: 5px !important;
+}
+
+.modal .form-control-static {
+    padding-top: 0 !important;
+}
+
+#table-persetujuan-cuti {
+    padding-bottom: 150px !important;
+}
+
+/** Pengajuan Bersalin **/
+.radio.radio-inline {
+    padding-left: 0px;
+}
+/** Pengajuan Bersalin **/
+
+section.cetak-medical .table-bordered0 tbody tr td{
+    border: 0px solid #ddd;
+    padding: 4px;
+}
+
+#table-bak-menunggu {
+    padding-bottom: 100px !important;
+}
+
+.callout {
+    padding: 10px 30px 10px 10px !important;
+}
+
+@media (min-width: 768px) {
+
+    .nav-tabs-custom .navbar-form {
+        width: 150px;
+    }
+
+}
+.swal2-popup .swal2-title {
+    font-size: 1.2em;
+}
+
+.dataTables_scrollBody .my-datatable-extends, .dataTables_scrollBody .my-datatable-order-col2, .dataTables_scrollBody .my-datatable-extends-order {
+    padding-bottom: 100px !important;
+}
+
+select[readonly].select2 + .select2-container {
+    pointer-events: none;
+    touch-action: none;
+}
+select[readonly].select2 + .select2-container .select2-selection {
+    background: #eee;
+    box-shadow: none;
+}
+
+select[readonly].select2 + .select2-container .select2-selection__arrow,
+select[readonly].select2 + .select2-container .select2-selection__clear {
+    display: none;
+}

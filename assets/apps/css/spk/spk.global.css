@@ -1,0 +1,47 @@
+.table-divisi {
+    -webkit-box-shadow: 0 1px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 5px 0px rgba(0,0,0,0.2);
+    border-radius: 4px;
+}
+
+.modal .form-control-static {
+    padding-top: 0 !important;
+}
+
+.disabled.day {
+    color: #ccc !important;
+}
+
+.weekend.day {
+    color: #39a0ff !important;
+}
+
+.active.selected.day, .selected.day, .range.day {
+    border-color: unset;
+    border-radius: 0 !important;
+    color: white !important;
+}
+
+.range.disabled.weekend {
+    background-color: orange !important;
+    color: white !important;
+}
+
+.range.disabled.cuti {
+    background-color: #ff3333 !important;
+    color: white !important;
+}
+
+.range.day:not(.disabled), .selected.day {
+    /*background-color: rgba(0, 141, 76, 0.8) !important;*/
+    background-color: #008d4c !important;
+}
+
+.active.selected.day {
+    background-color: #005f33 !important;
+}
+
+.fancybox-button--downloadBtn {
+    width:110px !important;
+}
